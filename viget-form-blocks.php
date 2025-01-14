@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Viget Form Blocks
  * Plugin URI:        https://viget.com
- * Description:       Form blocks using ACF.
+ * Description:       Create forms in Gutenberg with ACF Blocks by Viget.
  * Version:           1.0.0
  * Requires at least: 5.7
  * Requires PHP:      8.1

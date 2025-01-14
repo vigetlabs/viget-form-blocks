@@ -4,12 +4,13 @@
   "description": "Create forms in Gutenberg with ACF Blocks by Viget.",
   "keywords": [
     "wordpress",
-    "components",
-    "cms",
-    "ddev",
-    "tailwind",
-    "vite"
+    "forms",
+    "gutenberg",
+    "editor",
+    "plugin"
   ],
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/vigetlabs/viget-form-blocks",
   "license": "MIT",
   "authors": [
     {
@@ -20,6 +21,15 @@
   "autoload": {
     "psr-4": {
       "VigetFormBlocks\\": "classes/"
+    }
+  },
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/installers": true
     }
   }
 }

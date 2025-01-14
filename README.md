@@ -1,3 +1,3 @@
 # Viget Form Blocks
 
-Create forms with ACF.
+Create forms in Gutenberg with ACF Blocks by Viget.
