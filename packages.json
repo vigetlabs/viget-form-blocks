@@ -1,7 +1,7 @@
 {
   "package": {
     "name": "viget/viget-form-blocks",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "source": {
       "url": "/root/path/not/relative/path/to/viget-form-blocks/.git",
       "type": "git",
