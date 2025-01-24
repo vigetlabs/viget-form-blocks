@@ -25,6 +25,9 @@ $inner = [
 		id="<?php echo esc_attr( $field->get_id_attr() ); ?>"
 		name="<?php echo esc_attr( $field->get_name_attr() ); ?>"
 		<?php checked( $field->is_checked() ); ?>
+		<?php if ( $field->is_required() ) : ?>
+			required="required"
+		<?php endif; ?>
 	>
 
 	<?php inner_blocks( $inner ); ?>
