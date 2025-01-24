@@ -76,8 +76,6 @@ class Input extends Field {
 	public function get_attrs(): array {
 		$attrs = parent::get_attrs();
 
-		$attrs['data-supports-jsx'] = null;
-
 		$attrs['type']  = $this->get_input_type();
 		$attrs['value'] = $this->get_value_attr();
 

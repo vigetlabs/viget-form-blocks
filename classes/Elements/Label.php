@@ -24,7 +24,6 @@ class Label extends Field {
 		$attrs = parent::get_attrs();
 
 		unset( $attrs['name'] );
-		$attrs['data-supports-jsx'] = null;
 
 		$parent = $this->get_parent_field();
 		if ( $parent && ! is_admin() ) {

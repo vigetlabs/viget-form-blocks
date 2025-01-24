@@ -24,7 +24,6 @@ class Legend extends Field {
 		$attrs = parent::get_attrs();
 
 		unset( $attrs['name'] );
-		$attrs['data-supports-jsx'] = null;
 
 		return $attrs;
 	}
