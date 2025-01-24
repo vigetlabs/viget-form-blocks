@@ -307,7 +307,7 @@ class Form {
 	public function update_field_context(): void {
 		$fields  = $this->get_all_fields();
 		$context = [
-			'acffb/formId' => $this->get_id(),
+			'vgtfb/formId' => $this->get_id(),
 		];
 
 		foreach ( $fields as $field ) {

@@ -21,7 +21,7 @@
     }
   },
   "providesContext": {
-    "acffb/formId": "blockId"
+    "vgtfb/formId": "blockId"
   },
   "acf": {
     "mode": "preview"

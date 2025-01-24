@@ -426,7 +426,11 @@ class Form {
 	 */
 	public static function find_form( ?string $form_id = null ): ?Form {
 		if ( is_null( $form_id ) ) {
-			return self::get_instance( $form_id );
+			return self::get_instance();
+		}
+
+		if ( ! str_starts_with( $form_id, 'acf_form_' ) ) {
+			$form_id = 'acf_form_' . $form_id;
 		}
 
 		foreach ( self::get_all_forms() as $form ) {

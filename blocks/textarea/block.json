@@ -22,9 +22,9 @@
       "default": ""
     }
   },
-  "usesContext": ["acffb/formId", "acffb/fieldsetId"],
+  "usesContext": ["vgtfb/formId", "vgtfb/fieldsetId"],
   "providesContext": {
-    "acffb/fieldId": "blockId"
+    "vgtfb/fieldId": "blockId"
   },
   "acf": {
     "mode": "preview"

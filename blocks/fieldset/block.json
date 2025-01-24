@@ -24,9 +24,9 @@
     }
   },
   "providesContext": {
-    "acffb/fieldsetId": "blockId"
+    "vgtfb/fieldsetId": "blockId"
   },
-  "usesContext": ["acffb/formId"],
+  "usesContext": ["vgtfb/formId"],
   "styles": [
     { "name": "default", "label": "List", "isDefault": true },
     { "name": "inline", "label": "Inline" },
