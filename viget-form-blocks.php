@@ -32,10 +32,10 @@ if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 }
 
 // Load include files.
-$plugin_files = glob( VGTFB_PLUGIN_PATH . 'includes/*.php' );
+$vgtfb_plugin_files = glob( VGTFB_PLUGIN_PATH . 'includes/*.php' );
 
-foreach ( $plugin_files as $path ) {
-	if ( file_exists( $path ) ) {
-		require_once $path;
+foreach ( $vgtfb_plugin_files as $vgtfb_path ) {
+	if ( file_exists( $vgtfb_path ) ) {
+		require_once $vgtfb_path;
 	}
 }
