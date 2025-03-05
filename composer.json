@@ -1,7 +1,7 @@
 {
   "name": "viget/viget-form-blocks",
-  "version": "0.0.1",
-  "description": "Create forms in Gutenberg with ACF Blocks by Viget.",
+  "version": "0.0.2 ",
+  "description": "Create forms in Gutenberg with ACF Blocks by Viget. This is an experimental plugin and is not ready for production use.",
   "keywords": [
     "wordpress",
     "forms",
